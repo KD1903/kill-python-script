@@ -10,5 +10,8 @@ to change temperature limit, change the number in if condition in script
 Script also send system notification, a voice message (need to install espeak)
 it also sends telegram message, for that you have to configure your telegram details in yaml file
 
+I have added noti.yaml as example (change your credentials in it)
+and save it at ~/.config/noti/noti.yaml
+
 for more details about telegram message:
 https://www.linuxuprising.com/2021/02/get-notifications-on-your-desktop-or.html
