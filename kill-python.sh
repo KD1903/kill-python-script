@@ -11,6 +11,7 @@ do
         temp=`who | grep "/$i"`
         #echo $temp
         all_users+="${temp: -3}"
+        
         #echo $all_users
 done
 
